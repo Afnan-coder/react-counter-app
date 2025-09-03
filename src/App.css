@@ -1,0 +1,72 @@
+
+body{
+  background-image: url("https://t3.ftcdn.net/jpg/08/68/51/04/360_F_868510427_vsvN67LV1zSmLMyXMOFG05tRCmTAj1xL.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(191, 219, 254);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.total-amount-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 60vh;
+  position: relative;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.right {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+ margin-bottom: 6px;
+}
+
+.right svg{
+  border-radius: 50%;
+  padding: 3px;
+  background-color: white;
+  box-shadow: 1px 2px 4px gray;
+  cursor: pointer;
+}
+
+.right svg:active{
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
+
+.total-amount-heading{
+  font-size: 50px;
+}
+
+.button-collection {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btn-1 {
+  flex: 1;
+  background-color: white !important;
+  color: black !important;
+}
+
+.btn-2 {
+  flex: 1;
+  background-color: white !important;
+  color: black !important;
+}
