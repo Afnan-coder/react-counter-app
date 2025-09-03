@@ -14,3 +14,6 @@ git clone https://github.com/Afnan-coder/react-counter-app.git
 cd react-counter-app
 npm install
 npm run dev
+
+## 🌐 Live Demo  
+[Click here to view](https://counter-app-with-react.netlify.app/)
