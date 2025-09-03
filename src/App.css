@@ -1,4 +1,9 @@
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background-image: url("https://t3.ftcdn.net/jpg/08/68/51/04/360_F_868510427_vsvN67LV1zSmLMyXMOFG05tRCmTAj1xL.jpg");
   background-repeat: no-repeat;
